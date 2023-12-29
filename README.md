@@ -21,15 +21,24 @@ This repository houses the source code and documentation for a rover that levera
 
 To get started with the ROS Based Rover, follow these steps:
 
-1. **Installation**: Clone this repository and install the required dependencies by following the instructions in the [Installation Guide](docs/installation.md).
+1. **Installation**: Clone this repository and install the required dependencies by following the instructions in the [Installation Guide].
 
-2. **Configuration**: Customize the rover's configuration based on your requirements. Detailed information can be found in the [Configuration Documentation](docs/configuration.md).
+2. **Usage**: Learn how to operate the rover, control it through the user interface, and visualize 3D maps by referring to the [User Guide].
 
-3. **Usage**: Learn how to operate the rover, control it through the user interface, and visualize 3D maps by referring to the [User Guide](docs/user_guide.md).
+## Installation Guide
 
-## Contributing
+1. Install ROS Noetic in Ubuntu 20.04 LTS using the instructions given in this [link](https://wiki.ros.org/noetic/Installation/Ubuntu)
 
-We welcome contributions from the community! If you have ideas for improvement, bug fixes, or new features, please check our [Contribution Guidelines](CONTRIBUTING.md).
+2. Install the Kinect Sensor V1 drivers and ROS library using the instructions given in this [link](https://aibegins.net/2020/11/22/give-your-next-robot-3d-vision-kinect-v1-with-ros-noetic/)
+
+3. Install the Raspberry Pi Camera ROS library using the instructions given in this [link](https://ros-mobile-robots.com/packages/raspicam_node/)
+
+4. Install Arduino IDE using the instructions given in this [link](https://linuxopsys.com/topics/install-arduino-ide-on-ubuntu-20-04)
+
+5. Install the Rosserial library using the instruction given in this [link](https://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup#:~:text=*Note%3A%20Currently%20you%20can%20install,setup%20a%20full%20ROS%20workstation.)
+
+6. Install the RTAB-Map library using the instructions given in this [link](https://github.com/introlab/rtabmap_ros#installation)
+
 
 ## License
 
@@ -37,4 +46,4 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE) - 
 
 ## Acknowledgments
 
-Special thanks to the open-source community and contributors who have made this project possible.
+Special thanks to the open-source community and my teammates who have made this project possible.
