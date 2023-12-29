@@ -33,6 +33,12 @@ This repository houses the source code and documentation for a rover that levera
 
 6. Install the RTAB-Map library using the instructions given in this [link](https://github.com/introlab/rtabmap_ros#installation)
 
+### Usage Guide
+
+Follow and enter the commands given in the **RC.txt** file 
+
+Then follow the instructions given in the rover_controls folder to run the user-interface
+
 
 ## License
 
