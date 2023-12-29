@@ -1,0 +1,26 @@
+ROVER CONTROLS LAUNCH: (OPEN NEW TERMINAL)
+---------------------------------------
+cd catkin_ws
+source devel/setup.bash
+roslaunch rover rover_launch.launch 
+
+TO DISPLAY CAMERA FEED: (OPEN NEW TERMINAL)
+--------------------------------------- 
+source devel/setup.bash
+rosrun image_view image_view image:=/raspicam_node/image _image_transport:=compressed
+
+FREENECT LAUNCH: (OPEN NEW TERMINAL)
+--------------------------------------------
+source devel/setup.bash
+roslaunch freenect_launch freenect.launch depth_registration:=true data_skip:=2
+
+RTABMAP MAPPING COMMAND: (OPEN NEW TERMINAL)
+---------------------------------------------
+source devel/setup.bash
+roslaunch rtabmap_launch rtabmap.launch rtabmap_args:="--delete_db_on_start --Vis/MaxFeatures 500 --Mem/ImagePreDecimation 2 --Mem/ImagePostDecimation 2 --Kp/DetectorStrategy 6 --OdomF2M/MaxSize 1000 --Odom/ImageDecimation 2" rtabmapviz:=false
+
+ROSLIBJS (OPEN NEW TERMINAL) (USER-INTERFACE)
+------------------------------------
+source devel/setup.bash
+roslaunch rosbridge_server rosbridge_websocket.launch
+
