@@ -1,0 +1,51 @@
+.teleoperation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%; /* Ensure the container takes full height */
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.direction-button {
+  background-color: #4CAF50; /* Green background color */
+  border: none;
+  color: white; /* White text color */
+  padding: 14px 20px; /* Padding to increase button size */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded border */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.direction-button.up {
+  margin-right: 68px; /* Adjust margin to align to one side */
+}
+
+.direction-button.left {
+  margin-right: 10px;
+}
+
+.direction-button.right {
+  margin-left: 10px;
+}
+
+.direction-button.down {
+  margin-right: 70px; /* Adjust margin to align to one side */
+}
+
+.direction-button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
