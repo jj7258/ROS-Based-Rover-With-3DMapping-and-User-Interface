@@ -19,13 +19,7 @@ This repository houses the source code and documentation for a rover that levera
 
 ## Getting Started
 
-To get started with the ROS Based Rover, follow these steps:
-
-1. **Installation**: Clone this repository and install the required dependencies by following the instructions in the [Installation Guide].
-
-2. **Usage**: Learn how to operate the rover, control it through the user interface, and visualize 3D maps by referring to the [User Guide].
-
-## Installation Guide
+### Installation Guide
 
 1. Install ROS Noetic in Ubuntu 20.04 LTS using the instructions given in this [link](https://wiki.ros.org/noetic/Installation/Ubuntu)
 
