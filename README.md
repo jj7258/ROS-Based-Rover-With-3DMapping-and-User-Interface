@@ -37,7 +37,7 @@ This repository houses the source code and documentation for a rover that levera
 
 Follow and enter the commands given in the **RC.txt** file 
 
-Then follow the instructions given in the rover_controls folder to run the user-interface
+Then follow the instructions given in the **rover_controls** folder to run the user-interface
 
 
 ## License
